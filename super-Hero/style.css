@@ -1,0 +1,77 @@
+/* 
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#heroImage{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h2{
+    text-align: center;
+}
+ */
+
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+ button,input{
+    background-color: cadetblue;
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    transition:all 0.5s ease-in-out;
+    border-radius: 2px;
+}
+button:hover,input:hover{
+    background-color: lightgray;
+    color: cadetblue;
+}
+
+
+.container{
+    height: 600px;
+    width: 500px;
+    color: white;
+    background: #39726e;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+    box-shadow: 5px 5px 20px #428d44;
+
+ }
+
+ p{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        width: 650px;
+    }
+
+    .container{
+        margin-left: 80px;
+    
+     }
+    
+  }
+
+ 
